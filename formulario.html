@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulario</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="paginas">
+
+<div class="contenedor">
+
+<h2>Formulario de opinión</h2>
+
+<form action="https://formsubmit.co/homeroelgordoo@gmail.com" method="POST">
+
+<p>Nombre:</p>
+<input type="text" name="nombre" required><br><br>
+
+<p>¿Te pareció útil la información del tema?</p>
+<select name="util">
+<option>Sí</option>
+<option>No</option>
+</select><br><br>
+
+<p>Comentario:</p>
+<textarea rows="4" cols="30" name="comentario" required></textarea><br><br>
+
+<input type="submit" value="Enviar" class="boton">
+
+<input type="hidden" name="_captcha" value="false">
+</form>
+
+<br>
+<a href="menu.html" class="boton">Volver al menú</a>
+
+</div>
+
+</body>
+</html>
